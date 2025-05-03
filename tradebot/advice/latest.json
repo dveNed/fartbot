@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-05-02T18:28:32.867062",
+  "advice": [
+    {
+      "symbol": "FARTCOIN",
+      "confidence": 0.75,
+      "reason": "BTC showing weakness with risk level elevated",
+      "action": "abort_trade"
+    },
+    {
+      "symbol": "SOL",
+      "confidence": 0.75,
+      "reason": "BTC showing weakness with risk level elevated",
+      "action": "abort_trade"
+    }
+  ],
+  "overall_risk_level": "high",
+  "notes": "High risk conditions detected. Exercise caution with new positions."
+}

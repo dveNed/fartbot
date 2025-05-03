@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fartbot"
+version = "0.1.0"
+description = "AI-Powered Paper Trading Bot for Fartcoin via Hyperliquid"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "*.py"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hyperliquid-python-sdk = {git = "https://github.com/hyperliquid-dex/hyperliquid-python-sdk.git"}
+pandas = "^2.1.0"
+numpy = "^1.24.0"
+python-dotenv = "^1.0.0"
+schedule = "^1.2.0"
+apscheduler = "^3.10.1"
+jsonschema = "^4.21.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 

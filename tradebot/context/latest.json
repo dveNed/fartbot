@@ -1,0 +1,80 @@
+{
+  
+  "timestamp": "2024-05-02T16:30:00Z",
+  
+  
+  "prices": {
+    "FARTCOIN": 100.50,  
+    "BTC": 50000.00,     
+    "SOL": 150.00         
+  },
+  
+  
+  
+  "price_deltas": {
+    "FARTCOIN_1m": -0.4,  
+    "FARTCOIN_5m": -0.8,   
+    "BTC_5m": -1.2,       
+    "SOL_5m": 0.3         
+  },
+  
+  
+  "volumes": {
+    "FARTCOIN": 1000000,    
+    "BTC": 50000000,        
+    "SOL": 20000000         
+  },
+  
+  
+  
+  "strategy_signals": {
+    "FARTCOIN": "buy",
+    "BTC": "hold",
+    "SOL": "buy"
+  },
+  
+  
+  "open_positions": {
+    "FARTCOIN": {
+      "size": 1.0,
+      "entry_price": 101.00,
+      "current_price": 100.50
+    }
+  },
+  
+  
+  "recent_trades": [
+    {
+      "timestamp": "2024-05-02T16:25:00Z",
+      "symbol": "FARTCOIN",
+      "action": "open",
+      "price": 101.00,
+      "pnl": null
+    }
+  ],
+  
+  
+  "account": {
+    "balance": 10000.00,           
+    "pnl_today": -50.00,           
+    "pnl_hour": -0.02,           
+    "trades_today": 4,           
+    "trades_this_hour": 1        
+  },
+  
+  
+  "meta": {
+    "bot_mode": "paper",         
+    "version": "0.2.1"           
+  },
+  
+  
+  "volume_averages": {
+    "FARTCOIN": 500000,
+    "BTC": 25000000,
+    "SOL": 10000000
+  },
+  
+  
+  "max_trades_per_hour": 10
+} 
